@@ -57,3 +57,5 @@ class Graph:
                 answer.extend([out for out in node.outbound if out.value not in list(map(lambda n: n.value, answer))])
             self.crutch.clear()
             return answer
+
+#  123
