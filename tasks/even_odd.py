@@ -11,9 +11,9 @@ def even_odd(arr: list[int]) -> float:
     """
     sum_even = 0
     sum_odd = 0
-    for i in range(len(arr)):
-        if arr[i] % 2 == 0:
-            sum_even += arr[i]
+    for num in arr:
+        if num % 2 == 0:
+            sum_even += num
         else:
-            sum_odd += arr[i]
+            sum_odd += num
     return sum_even/sum_odd if sum_odd else 0
